@@ -1,0 +1,50 @@
+{
+    "name": "@kingscode/vuetify-phone-input",
+    "description": "A Vuetify form control usable for phone numbers. Supports country code, auto formatting and country code recognition",
+    "version": "0.1.2",
+    "repository": {
+        "url": "https://github.com/kingscode/vuetify-phone-input.git",
+        "type": "git"
+    },
+    "license": "MIT",
+    "author": "Bart Ramaekers",
+    "keywords": [
+        "vue",
+        "vuetify",
+        "phone",
+        "input",
+        "country"
+    ],
+    "homepage": "https://github.com/kingscode/vuetify-phone-input",
+    "bugs": {
+        "url": "https://github.com/kingscode/vuetify-phone-input/issues"
+    },
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build --target lib --name vuetify-phone-input ./src/index.ts"
+    },
+    "files": [
+        "dist/*",
+        "*.json",
+        "*.js"
+    ],
+    "main": "dist/vuetify-phone-input.common.js",
+    "dependencies": {
+        "libphonenumber-js": "^1.7.26",
+        "vue": "^2.6.10",
+        "vuetify": "^2.1.9"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-typescript": "^4.0.0",
+        "@vue/cli-service": "^4.0.0",
+        "deepmerge": "^4.2.2",
+        "fibers": "^4.0.2",
+        "node-sass": "^4.13.0",
+        "sass": "^1.23.3",
+        "sass-loader": "^8.0.0",
+        "typescript": "~3.5.3",
+        "vue-cli-plugin-vuetify": "^2.0.1",
+        "vue-template-compiler": "^2.6.10",
+        "vuetify-loader": "^1.3.0"
+    }
+}
